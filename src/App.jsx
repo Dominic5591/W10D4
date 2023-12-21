@@ -1,6 +1,7 @@
 import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom';
 import GalleryNavigation from './components/GalleryNavigation';
 import harvardArt from './data/harvardArt';
+// import GalleryView from "./components/GalleryView";
 console.log(harvardArt);
 const router = createBrowserRouter([
   {
